@@ -2,23 +2,34 @@
 #
 #  <sixie6e@paracosmoclast>
 #
-#pseudolayout
 import numpy as np
 import pandas as pd
 
 class food():
-	kelloggs = [cheez-it, eggo, famous amos, keebler, town house] #2017 revenue: $12.93 billion USD
+	
+	kelloggs = ["cheez-it", "eggo", "town house", "pringles", "austin", "carr's", "morningstar farms", "plantation", "gardenburger", "bear naked", "natural touch", "kashi", "club", "pop tarts", "rxbar", "fruit winders", "e.l. fudge", "sunshine biscuits", "vienna fingers", "wheatables"] #2017 revenue: $12.93 billion USD
 
 
-	general mills = [betty crocker, bisquick, gold medal, cheerios, chex] #2017 revenue: $15.62 billion USD
+	general mills = ["betty crocker", "gold medal", "jus-rol", "pillsbury", "knack&back", "yoki", "bisquick", "cascadian farm", "haagen-dazs", "annie's", "* helper", "old el paso", "green giant", "wanchai ferry", "v.pearl", "epic", "immaculate baking", "liberte", "muir glen", "food should taste good", "larabar", "mountain high", "latina fresh", "blue buffalo", "totino's", "parampara", "yoplait"] #2017 revenue: $15.62 billion USD
 
 
-	kraft-heinz = [heinz ketchup, kraft mac & cheese, lunchables, maxwell] #2017 revenue: $18.22 billion
+	kraft-heinz = ["abc", "benedicta", "breakstone's", "capri sun", "classico", "golden circle", "honig", "hp sauce", "jell-o", "karvan cevitam", "kool-aid", "lunchables", "master soy sauce", "maxwell house", "heinz ketchup", "kraft mac & cheese", "ore ida", "oscar mayer", "phiadelphia", "planters", "plasmon", "primal kitchen", "pudliszki", "quero", "velveeta", "wattie's"] #2017 revenue: $26.07 billion
 
 
-	mondelez = [cadbury, chips ahoy!, nabisco, oreo] #2017 revenue: $25.9 billion
+	mondelez = ["cadbury", "nabisco",  "dentyne", "chiclets", "tate's bake shop", "trident", , ] #2017 revenue: $25.9 billion
 
-
+	'''nabisco:belvitabetter cheddarsbimocheese nipschips ahoy!easy cheesefig newtons
+filipinoshandi-snacksin a biskitkinh dolefèvre-utile (lu)lorna doonemallomarsmikadonilla
+nutter butteroreopeek freanspremium crackersprincerice thinsritz crackersstoned wheat thins
+teddy grahamstrakinastriscuittucvegetable thinswheat thinscadbury brands:5 starastrosboostbournvillebournvitabrunch barbuttonscarambarcaramello koalacaramilkchappiescherry ripechompclusterscreme egg1 
+twistedcrispy crunchcrunchiecurly wurlydairy milk (caramel, fruit & nut)1double deckerdreameclairsfingersflakefreddofry's chocolate creamfry's turkish delightfudgefusegreen & black'sheroesjelly babieskrémala pie qui 
+chantemantecolmaynards bassetts (maynards & bassett's)milk traymini eggsmoromr. bigold goldpalitos de la 
+selvapascallpicnicpoulainrosesshotssnacksnowflakestarbarthe natural confectionery companytime outtrebortwirlvichy pastilleswispayowiegums & candiesbeemans 
+gumbubbaloobubbliciouscertschicletscloretsdentynedentyne mintsfreshen uphollywood chewing gummalabarsour patch kidsstimorolstrideswedish
+ fishtridentwunderbarchocolates:baker's chocolatecôte d'or (chokotoff)daimfreiafreia melkesjokoladekvikk lunsjlacta (brazil, greece)maraboumilkapoianaprince 
+ polotatrankyterry'sterry's all goldterry's chocolate orangetobleronetwistcoffee (jde)	jacobsdouwe 
+ egbertsgevaliahagkencomocconasenseotassimoother brands:hallstangdiscontinuedbonkers candy'''
+	
 	mars = [m&ms, snickers, dove, uncle ben’s] #2017 revenue: $35 billion
 
 
@@ -38,6 +49,8 @@ class food():
 
 	nestle = [toll house, gerber, poland spring, stouffer’s] #2017 revenue: $89.79 billion
 
+	ferrero spa = ["keebler", "famous amos", "nutella", "ferrara candy company", "ferrero kusschen", "ferrero rocher","hanuta", "kinder bueno", "kinder chocolate", "kinder joy", "kinder surprise", "mon cheri", "mother's cookies", "pocket coffee", "raffaello", "royal dansk", "thorntons", "tic tac"] #2017 revenue: $12.46 billion
+	
 class vehicle():
 	volkswagen group = [audi, bentley, bugatti, lamborghini, porsche, seat, skoda, volkswagen] #2017 revenue $272.21 billion
 
