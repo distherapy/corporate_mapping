@@ -6,8 +6,15 @@
 #
 import numpy as np
 import pandas as pd
-
-class food():
+# crosscheck ref https://en.wikipedia.org/wiki/Category:Lists_of_companies_by_industry
+class grocery():
+	
+	def __init__(self, name, years, parent):
+		self.name = name
+		self.years = years
+		self.parent = parent
+		self.employees = employees
+		self.revenue = revenue
 	
 	kelloggs = ["cheez-it", "eggo", "town house", "pringles", "austin", "carr's", "morningstar farms", "plantation", "gardenburger", "bear naked", "natural touch", "kashi", "club", "pop tarts", "rxbar", "fruit winders", "e.l. fudge", "sunshine biscuits", "vienna fingers", "wheatables"] #2017 revenue: $12.93 billion USD
 
