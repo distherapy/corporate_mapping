@@ -1,8 +1,8 @@
 #!usr/bin/env python
 #
-#  <sixie6e@paracosmoclast>
+# <sixie6e@paracosmoclast>
 #
-#pseudolayout
+# pseudolayout
 #
 import numpy as np
 import pandas as pd
@@ -15,12 +15,11 @@ class food():
 	general mills = ["betty crocker", "gold medal", "jus-rol", "pillsbury", "knack&back", "yoki", "bisquick", "cascadian farm", "haagen-dazs", "annie's", "* helper", "old el paso", "green giant", "wanchai ferry", "v.pearl", "epic", "immaculate baking", "liberte", "muir glen", "food should taste good", "larabar", "mountain high", "latina fresh", "blue buffalo", "totino's", "parampara", "yoplait"] #2017 revenue: $15.62 billion USD
 
 
-	kraft-heinz = ["abc", "benedicta", "breakstone's", "capri sun", "classico", "golden circle", "honig", "hp sauce", "jell-o", "karvan cevitam", "kool-aid", "lunchables", "master soy sauce", "maxwell house", "heinz ketchup", "kraft mac & cheese", "ore ida", "oscar mayer", "phiadelphia", "planters", "plasmon", "primal kitchen", "pudliszki", "quero", "velveeta", "wattie's"] #2017 revenue: $26.07 billion
+	kraft-heinz = [heinz ketchup, kraft mac & cheese, lunchables, maxwell] #2017 revenue: $18.22 billion
 
 
-	mondelez = ["cadbury", "nabisco",  "dentyne", "chiclets", "tate's bake shop", "trident", , ] #2017 revenue: $25.9 billion
-
-	'''nabisco:belvitabetter cheddarsbimocheese nipschips ahoy!easy cheesefig newtons
+	mondelez = ["cadbury", "nabisco",] #2017 revenue: $25.9 billion
+'''mondelez >>> nabisco:belvitabetter cheddarsbimocheese nipschips ahoy!easy cheesefig newtons
 filipinoshandi-snacksin a biskitkinh dolefèvre-utile (lu)lorna doonemallomarsmikadonilla
 nutter butteroreopeek freanspremium crackersprincerice thinsritz crackersstoned wheat thins
 teddy grahamstrakinastriscuittucvegetable thinswheat thinscadbury brands:5 starastrosboostbournvillebournvitabrunch barbuttonscarambarcaramello koalacaramilkchappiescherry ripechompclusterscreme egg1 
@@ -29,8 +28,7 @@ chantemantecolmaynards bassetts (maynards & bassett's)milk traymini eggsmoromr. 
 selvapascallpicnicpoulainrosesshotssnacksnowflakestarbarthe natural confectionery companytime outtrebortwirlvichy pastilleswispayowiegums & candiesbeemans 
 gumbubbaloobubbliciouscertschicletscloretsdentynedentyne mintsfreshen uphollywood chewing gummalabarsour patch kidsstimorolstrideswedish
  fishtridentwunderbarchocolates:baker's chocolatecôte d'or (chokotoff)daimfreiafreia melkesjokoladekvikk lunsjlacta (brazil, greece)maraboumilkapoianaprince 
- polotatrankyterry'sterry's all goldterry's chocolate orangetobleronetwistcoffee (jde)	jacobsdouwe 
- egbertsgevaliahagkencomocconasenseotassimoother brands:hallstangdiscontinuedbonkers candy'''
+ polotatrankyterry'sterry's all goldterry's chocolate orangetobleronetwistcoffee (jde)	jacobsdouwegbertsgevaliahagkencomocconasenseotassimoother brands:hallstangdiscontinuedbonkers candy'''
 	
 	mars = [m&ms, snickers, dove, uncle ben’s] #2017 revenue: $35 billion
 
@@ -83,3 +81,19 @@ class vehicle():
 	geely = [lotus, proton, volvo] #2017 revenue: $14.13 billion
 	
 	independent = [ferrari $4.05B, aston martin $1.16B, subaru $32.02B, mazda $30.9B, tesla $11.76B, mclaren $1.15B]
+
+
+class media():
+	
+	comcast = ["nbc", "universal filmed entertainment group", "sky studios", "dwa television", "cozi tv", "telemundo", "telexitos", "nhl", "back lot music", "peacock", "xfinity", "fandango", "xumo". "now tv", "]
+	
+	disney = ["abc", "disney studios", "utv motion pictures", "it's a laugh", "fx", "freeform productions", "marvel tv", "lwn", "rtl", "rtl2", "a&e", "fox nets group", "natgeo net", "espn", "abc radio", "fox music", "radio disney", "national geographic", "lucasarts"]
+	
+	national_amusements = ["cbs", "viacom", "paramount", "nickelodeon", "cbs", "the cw(50%)", "decades", "viacom dmn", "comedy central", "nick records", "cbs records", "simon & schuster", "pluto", "bet", "noggin", "showtime"]
+	
+	charter communications = ["spectrum", "time warner cable"]
+	
+	at_t =  ["time warner", "warner bros", "new line cinema", "wb", "cartoon network", "chilevision", "the cw(50%)", "tbs", "tnt", "trutv", "hbo", "cnn", "turner sports". "mlb", "nba", "watertower", "dc comics", "mad magazine", "boomerang", "crunchyroll", "rooster teeth"]
+	
+	thomson reuters = ["", ""]
+
