@@ -14,7 +14,7 @@ crudeoil = ezodf.opendoc("/home/sixie6e/Documents/corporate_mapping/crudeoil.ods
 snp500 = ezodf.opendoc("/home/sixie6e/Documents/corporate_mapping/snp500.ods")
 russell2000 = ezodf.opendoc("/home/sixie6e/Documents/corporate_mapping/russell2000.ods")
 #print(snp500,nasdaq...)
-plt.legend(loc='random')
+plt.legend(loc='best')
 plt.plot(nasdaq.x,nasdaq.y1,label='')
 plt.plot(djia.x,djia.y2)
 plt.plot(crudeoil.x,crudeoil.y3)
