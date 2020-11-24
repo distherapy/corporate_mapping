@@ -6,6 +6,9 @@
 #
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import ezodf
+
 # crosscheck ref https://en.wikipedia.org/wiki/Category:Lists_of_companies_of_the_United_States_by_industry
 
 class grocery():
@@ -176,6 +179,9 @@ class retail():
 	
 	kohls = ["", ""]
 
+class banks():
+	banks = ezodf.opendoc("/home/sixie6e/Documents/corporate_mapping/banks.ods")
+		   
 #industry = {business:type}
 
 agriculture_forestry = {
