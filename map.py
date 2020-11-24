@@ -1,12 +1,13 @@
 #!usr/bin/env python
 #
-# <sixie6e@paracosmoclast>
+#<sixie6e@paracosmoclast>
 #
-# pseudolayout
+#pseudolayout
 #
 import numpy as np
 import pandas as pd
-# crosscheck ref https://en.wikipedia.org/wiki/Category:Lists_of_companies_by_industry
+# crosscheck ref https://en.wikipedia.org/wiki/Category:Lists_of_companies_of_the_United_States_by_industry
+
 class grocery():
 	
 	def __init__(self, name, years, parent):
@@ -15,16 +16,13 @@ class grocery():
 		self.parent = parent
 		self.employees = employees
 		self.revenue = revenue
-	
+		
 	kelloggs = ["cheez-it", "eggo", "town house", "pringles", "austin", "carr's", "morningstar farms", "plantation", "gardenburger", "bear naked", "natural touch", "kashi", "club", "pop tarts", "rxbar", "fruit winders", "e.l. fudge", "sunshine biscuits", "vienna fingers", "wheatables"] #2017 revenue: $12.93 billion USD
-
 
 	general mills = ["betty crocker", "gold medal", "jus-rol", "pillsbury", "knack&back", "yoki", "bisquick", "cascadian farm", "haagen-dazs", "annie's", "* helper", "old el paso", "green giant", "wanchai ferry", "v.pearl", "epic", "immaculate baking", "liberte", "muir glen", "food should taste good", "larabar", "mountain high", "latina fresh", "blue buffalo", "totino's", "parampara", "yoplait"] #2017 revenue: $15.62 billion USD
 
-
-	kraft-heinz = ["abc", "benedicta", "breakstone's", "capri sun", "classico", "golden circle", "honig", "hp sauce", "jell-o", "karvan cevitam", "kool-aid", "lunchables", "master soy sauce", "maxwell house", "heinz ketchup", "kraft mac & cheese", "ore ida", "oscar mayer", "phiadelphia", "planters", "plasmon", "primal kitchen", "pudliszki", "quero", "velveeta", "wattie's"] #2017 revenue: $26.07 billion
-
-
+	kraft-heinz = [heinz ketchup, kraft mac & cheese, lunchables, maxwell] #2017 revenue: $18.22 billion
+	
 	mondelez = ["cadbury", "nabisco",] #2017 revenue: $25.9 billion
 '''mondelez >>> nabisco:belvitabetter cheddarsbimocheese nipschips ahoy!easy cheesefig newtons
 filipinoshandi-snacksin a biskitkinh dolefèvre-utile (lu)lorna doonemallomarsmikadonilla
@@ -58,8 +56,11 @@ gumbubbaloobubbliciouscertschicletscloretsdentynedentyne mintsfreshen uphollywoo
 
 	ferrero spa = ["keebler", "famous amos", "nutella", "ferrara candy company", "ferrero kusschen", "ferrero rocher","hanuta", "kinder bueno", "kinder chocolate", "kinder joy", "kinder surprise", "mon cheri", "mother's cookies", "pocket coffee", "raffaello", "royal dansk", "thorntons", "tic tac"] #2017 revenue: $12.46 billion
 	
-class vehicle():
+	bc partners = ["petsmart", "chewy", "american journey"]
 	
+	kroger = ["", ""]
+	
+class vehicle():
 	volkswagen group = [audi, bentley, bugatti, lamborghini, porsche, seat, skoda, volkswagen] #2017 revenue $272.21 billion
 
 	toyota = [toyota, daihatsu, lexus] #2017 revenue $256.65 billion
@@ -110,3 +111,120 @@ class retail():
 	lowes = ["", ""]
 	
 	walmart = ["", ""]
+	
+	costco = ["", ""]
+	
+	amazon = ["", ""]
+	
+	home_depot = ["", ""]
+	
+	target = ["", ""]
+	
+	tjx = ["", ""]
+	
+	best_buy = ["", ""]
+	
+	albertsons = ["", ""]
+	
+	publix = ["", ""]
+	
+	apple = ["", ""]
+	
+	microsoft = ["", ""]
+	
+	macys = ["", ""]
+	
+	heb = ["", ""]
+	
+	dollar_general = ["", ""]
+	
+	dollar_tree = ["", ""]
+	
+	family_dollar = ["", ""]
+	
+	kohls = ["", ""]
+	
+	sears = ["", ""]
+	
+	whole_foods = ["", ""]
+	
+	rite-aid = ["", ""]
+	
+	gap = ["", ""]
+	
+	nordstom = ["", ""]
+	
+	ross = ["", ""]
+	
+	bjs = ["", ""]
+	
+	l_brands= ["", ""]
+	
+	jc_penney = ["", ""]
+	
+	bed_bath_beyond = ["", ""]
+	
+	autozone = ["", ""]
+	
+	nike = ["", ""]
+	
+	qurate = ["", ""]
+	
+	dollar_tree = ["", ""]
+	
+	family_dollar = ["", ""]
+	
+	kohls = ["", ""]
+
+#industry = {business:type}
+
+agriculture_forestry = {
+	'extermination0':'orkin',
+	'extermination1':'a1',
+	'farming_lstock':'heartland', 'farming_crop':'dekalb',
+	'fishing_hunting':'state',
+	'landscaping':'earthworks'
+	
+business_information = {
+	'consultant':'the pyramid group llc', 'daylabor':'laborready',
+	'marketing':'829studios',
+	'media0':media.comcast,
+	'media1':media.national_amusements
+	'nonprofit':'boystown',
+	'notary':'nps',
+	'onlinebusiness':'ebay',
+	'publishing':'harper collins', 'recordproduction':'interscope',
+	'retail0':retail.jc_penney,
+	'retail1':retail.dollar_tree,
+	 TechnologyServicesTelemarketingTravelAgencyVideoProduction
+	
+Construction/Utilities/ContractingAC&HeatingArchitectBuildingConstructionBuildingInspectionConcreteManufacturingContractorEngineering/DraftingEquipmentRentalOther(Construction/Utilities/Contracting)PlumbingRemodelingRepair/Maintenance
+
+EducationChildCareServicesCollege/UniversitiesCosmetologySchoolElementary&SecondaryEducationGEDCertificationOther(Education)PrivateSchoolRealEstateSchool
+TechnicalSchoolTradeSchoolTutoringServicesVocationalSchool
+
+Finance&InsuranceAccountantAuditingBank/CreditUnionBookkeepingCashAdvancesCollectionAgencyInsuranceInvestorOther(Finance&Insurance)PawnBrokersTaxPreparation
+
+Food&HospitalityAlcohol/TobaccoSalesAlcoholicBeverageManufacturingBakeryCatererFood/BeverageManufacturingGrocery/ConvenienceStore(GasStation)Grocery/ConvenienceStore(NoGasStation)Hotels/Motels(Casino)Hotels/Motels(NoCasino)MobileFoodServicesOther(Food&Hospitality)Restaurant/BarSpecialtyFood(Fruit/Vegetables)SpecialtyFood(Meat)SpecialtyFood(Seafood)TobaccoProductManufacturingTruckStopVendingMachine
+
+GamingAuctioneerBoxing/WrestlingCasino/VideoGamingOther(Gaming)RacetrackSportsAgent
+
+HealthServicesAcupuncturistAthleticTrainerChild/YouthServicesChiropracticOffice
+DentistryElectrolysisEmbalmerEmergencyMedicalServicesEmergencyMedicalTransportationHearingAidDealersHomeHealthServicesHospitalMassageTherapyMedicalOfficeMentalHealthServicesNonEmergencyMedicalTransportationOptometryOther(HealthServices)PharmacyPhysicalTherapyPhysiciansOfficeRadiologyResidentialCareFacilitySpeech/OccupationalTherapySubstanceAbuseServicesVeterinaryMedicineVocationalRehabilitationWholesaleDrugDistribution
+
+information_technology = { }
+
+MotorVehicleAutomotivePartSalesCarWash/DetailingMotorVehicleRentalMotorVehicleRepairNewMotorVehicleSalesOther(MotorVehicle)RecreationalVehicleSalesUsedMotorVehicleSales
+
+NaturalResources/EnvironmentalConservationOrganizationsEnvironmentalHealthLandSurveyingOil&GasDistributionOil&GasExtraction/ProductionOther(NaturalResources/Environmental)PipelineWaterWellDrillingOther
+
+Other(BusinessTypeNotListed)
+
+PersonalServicesAnimalBoardingBarberShop
+BeautySalonCemeteryDietCenterDrycleaning/LaundryEntertainment/PartyRentalsEventPlanningFitnessCenterFloristFuneralDirectorJanitorial/CleaningServicesMassage/DaySpaNailSalonOther(PersonalServices)PersonalAssistantPhotographyTanningSalon
+
+RealEstate&HousingHomeInspectionInteriorDesignManufacturedHousingMortgageCompanyOther(RealEstate&Housing)PropertyManagementRealEstateBroker/AgentWarehouse/Storage
+
+Safety/Security&LegalAttorneyBailBondsCourtReporterDrugScreeningLocksmithOther(Safety/Security&Legal)PrivateInvestigatorSecurityGuardSecuritySystemServices
+
+TransportationAirTransportationBoatServicesLimousineServicesOther(Transportation)TaxiServicesTowingTruckTransportation(Fuel)TruckTransportation(NonFuel)
