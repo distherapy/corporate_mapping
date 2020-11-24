@@ -189,7 +189,7 @@ business_information = {
 	'consultant':'the pyramid group llc', 'daylabor':'laborready',
 	'marketing':'829studios',
 	'media0':media.comcast,
-	'media1':media.national_amusements
+	'media1':media.national_amusements,
 	'nonprofit':'boystown',
 	'notary':'nps',
 	'onlinebusiness':'ebay',
