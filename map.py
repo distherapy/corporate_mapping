@@ -96,6 +96,16 @@ class media():
 	at_t =  ["time warner", "warner bros", "new line cinema", "wb", "cartoon network", "chilevision", "the cw(50%)", "tbs", "tnt", "trutv", "hbo", "cnn", "turner sports". "mlb", "nba", "watertower", "dc comics", "mad magazine", "boomerang", "crunchyroll", "rooster teeth"]
 	
 	thomson reuters = ["", ""]
+		  
+	bertelsmann = ["penguin", "random house"]
+		   
+	viacomCBS = ["", ""]
+		   
+	hasbro = ["", ""]
+		   
+	access_industries = ["", ""]
+		   
+	discovery_inc = ["", ""]
 
 class retail():
 	
@@ -170,7 +180,7 @@ class retail():
 class banks():
 	banks = ezodf.opendoc("/home/sixie6e/Documents/corporate_mapping/banks.ods")
 		   
-#industry = {business:type}
+#industry = {type:brand}
 
 agriculture_forestry = {
 	'extermination0':'orkin',
