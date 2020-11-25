@@ -9,8 +9,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import ezodf
 
-# crosscheck ref https://en.wikipedia.org/wiki/Category:Lists_of_companies_of_the_United_States_by_industry
-
 class grocery():
 	
 	def __init__(self, name, years, parent):
@@ -26,17 +24,7 @@ class grocery():
 
 	kraft-heinz = [heinz ketchup, kraft mac & cheese, lunchables, maxwell] #2017 revenue: $18.22 billion
 	
-	mondelez = ["cadbury", "nabisco",] #2017 revenue: $25.9 billion
-'''mondelez >>> nabisco:belvitabetter cheddarsbimocheese nipschips ahoy!easy cheesefig newtons
-filipinoshandi-snacksin a biskitkinh dolefèvre-utile (lu)lorna doonemallomarsmikadonilla
-nutter butteroreopeek freanspremium crackersprincerice thinsritz crackersstoned wheat thins
-teddy grahamstrakinastriscuittucvegetable thinswheat thinscadbury brands:5 starastrosboostbournvillebournvitabrunch barbuttonscarambarcaramello koalacaramilkchappiescherry ripechompclusterscreme egg1 
-twistedcrispy crunchcrunchiecurly wurlydairy milk (caramel, fruit & nut)1double deckerdreameclairsfingersflakefreddofry's chocolate creamfry's turkish delightfudgefusegreen & black'sheroesjelly babieskrémala pie qui 
-chantemantecolmaynards bassetts (maynards & bassett's)milk traymini eggsmoromr. bigold goldpalitos de la 
-selvapascallpicnicpoulainrosesshotssnacksnowflakestarbarthe natural confectionery companytime outtrebortwirlvichy pastilleswispayowiegums & candiesbeemans 
-gumbubbaloobubbliciouscertschicletscloretsdentynedentyne mintsfreshen uphollywood chewing gummalabarsour patch kidsstimorolstrideswedish
- fishtridentwunderbarchocolates:baker's chocolatecôte d'or (chokotoff)daimfreiafreia melkesjokoladekvikk lunsjlacta (brazil, greece)maraboumilkapoianaprince 
- polotatrankyterry'sterry's all goldterry's chocolate orangetobleronetwistcoffee (jde)	jacobsdouwegbertsgevaliahagkencomocconasenseotassimoother brands:hallstangdiscontinuedbonkers candy'''
+	mondelez = ["cadbury", "nabisco", etc] #2017 revenue: $25.9 billion
 	
 	mars = [m&ms, snickers, dove, uncle ben’s] #2017 revenue: $35 billion
 
@@ -187,50 +175,22 @@ class banks():
 agriculture_forestry = {
 	'extermination0':'orkin',
 	'extermination1':'a1',
-	'farming_lstock':'heartland', 'farming_crop':'dekalb',
+	'farming_lstock':'heartland',
+	'farming_crop':'dekalb',
 	'fishing_hunting':'state',
 	'landscaping':'earthworks'
 	
 business_information = {
-	'consultant':'the pyramid group llc', 'daylabor':'laborready',
+	'consultant':'the pyramid group llc',
+	'daylabor':'laborready',
 	'marketing':'829studios',
 	'media0':media.comcast,
 	'media1':media.national_amusements,
 	'nonprofit':'boystown',
 	'notary':'nps',
 	'onlinebusiness':'ebay',
-	'publishing':'harper collins', 'recordproduction':'interscope',
+	'publishing':'harper collins',
+	'recordproduction':'interscope',
 	'retail0':retail.jc_penney,
 	'retail1':retail.dollar_tree,
-	 TechnologyServicesTelemarketingTravelAgencyVideoProduction
-	
-Construction/Utilities/ContractingAC&HeatingArchitectBuildingConstructionBuildingInspectionConcreteManufacturingContractorEngineering/DraftingEquipmentRentalOther(Construction/Utilities/Contracting)PlumbingRemodelingRepair/Maintenance
-
-EducationChildCareServicesCollege/UniversitiesCosmetologySchoolElementary&SecondaryEducationGEDCertificationOther(Education)PrivateSchoolRealEstateSchool
-TechnicalSchoolTradeSchoolTutoringServicesVocationalSchool
-
-Finance&InsuranceAccountantAuditingBank/CreditUnionBookkeepingCashAdvancesCollectionAgencyInsuranceInvestorOther(Finance&Insurance)PawnBrokersTaxPreparation
-
-Food&HospitalityAlcohol/TobaccoSalesAlcoholicBeverageManufacturingBakeryCatererFood/BeverageManufacturingGrocery/ConvenienceStore(GasStation)Grocery/ConvenienceStore(NoGasStation)Hotels/Motels(Casino)Hotels/Motels(NoCasino)MobileFoodServicesOther(Food&Hospitality)Restaurant/BarSpecialtyFood(Fruit/Vegetables)SpecialtyFood(Meat)SpecialtyFood(Seafood)TobaccoProductManufacturingTruckStopVendingMachine
-
-GamingAuctioneerBoxing/WrestlingCasino/VideoGamingOther(Gaming)RacetrackSportsAgent
-
-HealthServicesAcupuncturistAthleticTrainerChild/YouthServicesChiropracticOffice
-DentistryElectrolysisEmbalmerEmergencyMedicalServicesEmergencyMedicalTransportationHearingAidDealersHomeHealthServicesHospitalMassageTherapyMedicalOfficeMentalHealthServicesNonEmergencyMedicalTransportationOptometryOther(HealthServices)PharmacyPhysicalTherapyPhysiciansOfficeRadiologyResidentialCareFacilitySpeech/OccupationalTherapySubstanceAbuseServicesVeterinaryMedicineVocationalRehabilitationWholesaleDrugDistribution
-
-information_technology = { }
-
-MotorVehicleAutomotivePartSalesCarWash/DetailingMotorVehicleRentalMotorVehicleRepairNewMotorVehicleSalesOther(MotorVehicle)RecreationalVehicleSalesUsedMotorVehicleSales
-
-NaturalResources/EnvironmentalConservationOrganizationsEnvironmentalHealthLandSurveyingOil&GasDistributionOil&GasExtraction/ProductionOther(NaturalResources/Environmental)PipelineWaterWellDrillingOther
-
-Other(BusinessTypeNotListed)
-
-PersonalServicesAnimalBoardingBarberShop
-BeautySalonCemeteryDietCenterDrycleaning/LaundryEntertainment/PartyRentalsEventPlanningFitnessCenterFloristFuneralDirectorJanitorial/CleaningServicesMassage/DaySpaNailSalonOther(PersonalServices)PersonalAssistantPhotographyTanningSalon
-
-RealEstate&HousingHomeInspectionInteriorDesignManufacturedHousingMortgageCompanyOther(RealEstate&Housing)PropertyManagementRealEstateBroker/AgentWarehouse/Storage
-
-Safety/Security&LegalAttorneyBailBondsCourtReporterDrugScreeningLocksmithOther(Safety/Security&Legal)PrivateInvestigatorSecurityGuardSecuritySystemServices
-
-TransportationAirTransportationBoatServicesLimousineServicesOther(Transportation)TaxiServicesTowingTruckTransportation(Fuel)TruckTransportation(NonFuel)
+	 
