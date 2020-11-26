@@ -188,7 +188,7 @@ agriculture_forestry = {
 	'farming_lstock':'heartland',
 	'farming_crop':'dekalb',
 	'fishing_hunting':'state',
-	'landscaping':'earthworks'
+	'landscaping':'earthworks'}
 	
 business_information = {
 	'consultant':'the pyramid group llc',
@@ -202,5 +202,5 @@ business_information = {
 	'publishing':'harper collins',
 	'recordproduction':'interscope',
 	'retail0':retail.jc_penney,
-	'retail1':retail.dollar_tree,
+	'retail1':retail.dollar_tree,}
 	 
