@@ -5,7 +5,6 @@
 #pseudolayout
 #
 ####################################
-'''
 industry:
 	corp(s):
 		business:
@@ -16,23 +15,27 @@ retail:
        gen_mills:
 		 food:
 		     haagen_dazs:
-				 banana pb chip
+				 banana pb chip:
+				               $15.62 billion
 
 media:
       natl_amusements:
 		      film:
 			   paramount:
-				     interstellar
+				     interstellar:
+				                 $27.8 billion
 
 vehicle:
 	toyota:
 		car:
 		    lexus:
-			  gx400
+			  gx400:
+			       $256.65 billion
 
 retail:
 	cke:
 	    fast_food:
 		      carls_jr:
-			       famous_star
-'''
+			       famous_star:
+			                  $909.23 million
+
