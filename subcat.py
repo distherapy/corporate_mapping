@@ -9,30 +9,30 @@
 industry:
 	corp(s):
 		business:
-				brand:
-					product
+			brand:
+			      product
 
 retail:
-	gen_mills:
-		food:
-			haagen_dazs:
-				banana pb chip
+       gen_mills:
+		 food:
+		     haagen_dazs:
+				 banana pb chip
 
 media:
-	natl_amusements:
-		film:
-			paramount:
-				interstellar
+      natl_amusements:
+		      film:
+			   paramount:
+				     interstellar
 
 vehicle:
 	toyota:
 		car:
-			lexus:
-				gx400
+		    lexus:
+			  gx400
 
 retail:
 	cke:
-		fast_food:
-				carls_jr:
-					famous_star
+	    fast_food:
+		      carls_jr:
+			       famous_star
 '''
